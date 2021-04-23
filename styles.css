@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+
+.twt_main-container{
+    /* display: flex;
+    justify-content: center; */
+    /* margin-right: auto;
+    margin-left: auto; */
+    height: 900px;
+    width: 600px;
+    border: 1px solid rgba(211, 211, 211, 0.664);
+}
+
+.fas{
+    color: #2A91DA;
+    font-size: 1.5em
+}
+
+.fa-chevron-left{
+    padding: 25px 25px;
+
+}
+
+.twt_top-nav{
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.twt_user-intro{
+    font-size: 25px;
+    font-style: bold;
+ 
+}
+
+.elon_cover{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.twt_banner{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.twt_middle-container{
+    height: 255px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.664);
+
+
+}
+
+/* follow */
+
+.twt_follow-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.twt_follow-btn{
+    display: flex;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    color: white;
+    background-color: #2A91DA;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.twt_middle-following{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+/* info section */
+
+.twt_info-container{
+    padding-left: 15px;
+    margin-top: -150px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    
+}
+
+.elon_img{
+    border-radius: 200px;
+    height: 150px;
+    border: 4px solid white;
+}
+
+
+.twt_info-handle, 
+.twt_info-joined, 
+.twt_info-following, 
+.twt_info-followers{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+.twt_info-name{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.twt_info-handle{
+    color: grey;
+    padding: 2px 0 2px 0;
+    
+}
+
+.twt_info-joined{
+    color: grey;
+    padding: 10px 0 10px 0;
+}
+
+.info-follower-container{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+
+.twt_info-followers{
+    padding-left: 10px;
+}
+
+span{
+    color: grey
+}
+
+
+
+/* middle nav */
+
+.twt_nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    /* border-bottom: 1px solid red; */
+    
+    
+    
+}
+
+.twt_nav{
+ 
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    color: grey;
+    padding: 21px;
+    height: auto;
+    flex: auto;
+  
+  
+  
+}
+
+.twt_nav:hover{
+   background-color: #2a91da31;
+   height: 50px;
+   color: grey;
+   height: auto;
+  
+}
+
+
+/* individual twitter cards */
+.twt_card{
+    display: flex;
+    /* border-top: 1px solid lightgrey; */
+    border-bottom: 1px solid rgba(211, 211, 211, 0.664);
+ 
+    padding: 15px;
+}
+
+.elon_avatar{
+    border-radius: 200px;
+    height: 50px;
+}
+
+.text_info{
+    padding-left: 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+.text_name{
+    display: flex;
+    padding-bottom: 7px;
+}
+
+.text_info-username{
+    padding-left: 10px;
+    color: grey;
+}
+
+
+
+.fa-ellipsis-h{
+    display: flex;
+    margin-left: auto;
+    color: grey;
+    font-size: 1em
+
+}
+
