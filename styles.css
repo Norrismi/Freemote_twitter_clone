@@ -83,6 +83,12 @@ body{
     
 }
 
+.twt_follow-btn:hover{
+    /* opacity: 0.75; */
+    cursor: pointer;
+    
+}
+
 .twt_middle-following{
     display: flex;
     justify-content: flex-end;
@@ -138,13 +144,17 @@ body{
 .info-follower-container{
     display: flex;
     flex-direction: row;
+  
     
     
 }
 
-
+.twt_info-following{
+    font-weight: 600;
+}
 .twt_info-followers{
     padding-left: 10px;
+    font-weight: 600;
 }
 
 span{
@@ -185,6 +195,7 @@ span{
    height: 50px;
    color: grey;
    height: auto;
+   cursor: pointer;
   
 }
 
@@ -218,6 +229,16 @@ span{
     padding-left: 10px;
     color: grey;
 }
+
+.text_info-time{
+    color: grey;
+    padding-left: 5px;
+}
+
+span{
+    padding-right: 5px;
+}
+
 
 
 
