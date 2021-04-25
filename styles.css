@@ -11,10 +11,6 @@ body{
 
 
 .twt_main-container{
-    /* display: flex;
-    justify-content: center; */
-    /* margin-right: auto;
-    margin-left: auto; */
     height: 900px;
     width: 600px;
     border: 1px solid rgba(211, 211, 211, 0.664);
@@ -59,9 +55,9 @@ body{
 .twt_middle-container{
     height: 255px;
     border-bottom: 1px solid rgba(211, 211, 211, 0.664);
-
-
 }
+
+
 
 /* follow */
 
@@ -84,9 +80,7 @@ body{
 }
 
 .twt_follow-btn:hover{
-    /* opacity: 0.75; */
     cursor: pointer;
-    
 }
 
 .twt_middle-following{
@@ -170,10 +164,6 @@ span{
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    /* border-bottom: 1px solid red; */
-    
-    
-    
 }
 
 .twt_nav{
@@ -203,9 +193,7 @@ span{
 /* individual twitter cards */
 .twt_card{
     display: flex;
-    /* border-top: 1px solid lightgrey; */
     border-bottom: 1px solid rgba(211, 211, 211, 0.664);
- 
     padding: 15px;
 }
 
